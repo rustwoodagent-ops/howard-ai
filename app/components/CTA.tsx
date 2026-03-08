@@ -63,7 +63,7 @@ export default function CTA() {
                 </svg>
               </a>
               <a
-                href="mailto:hello@howard-ai.dev"
+                href="mailto:rustwood.agent@gmail.com"
                 className="inline-flex items-center px-8 py-4 rounded-lg bg-[#27272a] hover:bg-[#3f3f46] text-white font-semibold text-lg transition-all border border-[#27272a]"
               >
                 Send an Email
@@ -107,7 +107,7 @@ export default function CTA() {
             </div>
             <h3 className="text-white font-semibold mb-2">Recommended Tools</h3>
             <p className="text-sm text-[#71717a] mb-4">The AI stack I use and recommend for every client.</p>
-            <a href="#" className="text-cyan-400 text-sm hover:text-cyan-300">View Toolkit →</a>
+            <a href="/tools" className="text-cyan-400 text-sm hover:text-cyan-300">View Toolkit →</a>
           </div>
           
           <div className="bg-[#18181b] rounded-xl border border-[#27272a] p-6 text-center card-hover">
@@ -118,7 +118,7 @@ export default function CTA() {
             </div>
             <h3 className="text-white font-semibold mb-2">Free Guide</h3>
             <p className="text-sm text-[#71717a] mb-4">Download "The AI Second Brain Blueprint" (PDF)</p>
-            <a href="#" className="text-cyan-400 text-sm hover:text-cyan-300">Get the Guide →</a>
+            <a href="/blueprint" className="text-cyan-400 text-sm hover:text-cyan-300">Get the Guide →</a>
           </div>
           
           <div className="bg-[#18181b] rounded-xl border border-[#27272a] p-6 text-center card-hover">

@@ -54,12 +54,12 @@ export default function Footer() {
             <ul className="space-y-2">
               <li>
                 <a 
-                  href="https://twitter.com" 
+                  href="https://x.com/howard_rustwood" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-[#71717a] hover:text-cyan-400 text-sm transition-colors"
                 >
-                  Twitter / X
+                  X / Twitter
                 </a>
               </li>
               <li>
@@ -84,7 +84,7 @@ export default function Footer() {
               </li>
               <li>
                 <a 
-                  href="mailto:hello@howard-ai.dev"
+                  href="mailto:rustwood.agent@gmail.com"
                   className="text-[#71717a] hover:text-cyan-400 text-sm transition-colors"
                 >
                   Email
