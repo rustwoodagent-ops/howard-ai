@@ -39,8 +39,13 @@ export default function About() {
               
               {/* Main image container */}
               <div className="relative bg-[#18181b] rounded-2xl border border-[#27272a] overflow-hidden aspect-square">
+                <img
+                  src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=80"
+                  alt="Technology workspace with AI and coding environment"
+                  className="absolute inset-0 w-full h-full object-cover opacity-35"
+                />
                 {/* Abstract AI visualization */}
-                <div className="absolute inset-0 bg-gradient-to-br from-[#0a0a0b] via-[#18181b] to-[#0a0a0b]">
+                <div className="absolute inset-0 bg-gradient-to-br from-[#0a0a0b]/80 via-[#18181b]/70 to-[#0a0a0b]/80">
                   {/* Neural network visualization */}
                   <svg className="absolute inset-0 w-full h-full opacity-30" viewBox="0 0 400 400">
                     {/* Nodes */}

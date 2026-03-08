@@ -93,6 +93,15 @@ export default function Hero() {
           </div>
         </div>
 
+        {/* Feature image */}
+        <div className="mt-12 mb-8 flex justify-center">
+          <img
+            src="https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1400&q=80"
+            alt="AI assistant interface on a laptop screen"
+            className="w-full max-w-4xl h-64 sm:h-80 object-cover rounded-2xl border border-[#27272a]"
+          />
+        </div>
+
         {/* Dashboard preview */}
         <div
           className={`mt-20 transition-all duration-1000 delay-300 ${
